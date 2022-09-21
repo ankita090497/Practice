@@ -24,7 +24,6 @@ public class FibonacciSeries {
     }*/
 
     // 2. Using recursion;
-
     static int fib(int n)
     {
         if (n <= 1)
