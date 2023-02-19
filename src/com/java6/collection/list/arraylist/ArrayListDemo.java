@@ -1,7 +1,6 @@
-package com.java6.collection.arraylist;
+package com.java6.collection.list.arraylist;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
