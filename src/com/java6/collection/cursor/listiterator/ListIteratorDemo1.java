@@ -13,21 +13,21 @@ public class ListIteratorDemo1 {
         list.add("pqr");
         list.add("mno");
 
-        System.out.println("Linked List : "+list);
+        System.out.println("Linked List : " + list);
 
         ListIterator iterator = list.listIterator();
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             String s = (String) iterator.next();
 
-            if(s.equals("pqr")){
+            if (s.equals("pqr")) {
                 iterator.remove();
-            }else if(s.equals("abc")){
+            } else if (s.equals("abc")) {
                 iterator.set(1254);
-            }else if (s.equals("xyz")) {
+            } else if (s.equals("xyz")) {
                 iterator.add(9497);
             }
         }
-        System.out.print("List : "+list);
+        System.out.print("List : " + list);
     }
 }
